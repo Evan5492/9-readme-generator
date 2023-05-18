@@ -90,7 +90,7 @@ const questions = [
         name: "badges",
         message: "Are there any badges for this project?",
         validate: badgesInput => {
-            if (descriptionInput){
+            if (badgesInput){
                 return true;
             } else {
                 console.log('Enter "N/A" if none');
