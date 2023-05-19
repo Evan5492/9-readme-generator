@@ -73,11 +73,12 @@ const questions = [
         }
     },
     {
-        type: "input",
-        name: "liscense",
+        type: "checkbox",
+        name: "license",
         message: "What liscense is being used?",
-        validate: liscenseInput => {
-            if (liscenseInput){
+        choices: ['Apache 2.0', 'MIT', 'Eclipse Public 2.0', 'ISC', 'None of the above'],
+        validate: licenseInput => {
+            if (licenseInput){
                 return true;
             } else {
                 console.log('Must enter project liscense');
@@ -124,6 +125,33 @@ const questions = [
             }
         }
     },
+    {
+        type: "input",
+        name: "github",
+        message: "Enter Github username",
+        validate: githubInput => {
+            if (githubInput){
+                return true;
+            } else {
+                console.log('Must enter Github username');
+                return false;
+            }
+        }
+    },
+    {
+        type: "input",
+        name: "email",
+        message: "Enter email address",
+        validate: emailInput => {
+            if (emailInput){
+                return true;
+            } else {
+                console.log('Must enter email address');
+                return false;
+            }
+        }
+    },
+
 
 ];
 

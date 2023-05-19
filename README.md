@@ -4,25 +4,27 @@
   -[Installation](#installation)
   -[Usage](#usage)
   -[Credits](#credits)
-  -[License](#liscense)
+  -[License](#license)
   -[Badges](#badges)
   -[How to Contribute](#contribute)
   -[Tests](#tests)
 
   ## Description:
-  To write a README file using Node js
+  A node js app meant to generate a README.md file
   ## Installation:
   undefined
   ## Usage:
-  Open the intergrated terminal and access the application using Node js
+  Open the intergrated terminal and run the app with the "node index js" command
   ## Credits:
   N/A
-  ## Liscense:
-  N/A
+  ## License:
+  
   ## Badges:
   N/A
   ## How to Contribute:
-  Through accessing the Github repository
+  Through the Github repository
   ## Tests:
   node index js
-
+  ## Contact Information:
+  -Github: [Evan5492](https://github.com/Evan5492)
+  -Email: [E.m.w5492@gmail.com](mail to: example@etc.com) 
