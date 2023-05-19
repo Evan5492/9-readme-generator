@@ -10,11 +10,11 @@
   -[Tests](#tests)
 
   ## Description:
-  A node js app meant to generate a README.md file
+  To create README
   ## Installation:
   undefined
   ## Usage:
-  Open the intergrated terminal and run the app with the "node index js" command
+  Open in terminal
   ## Credits:
   N/A
   ## License:
@@ -22,9 +22,9 @@
   ## Badges:
   N/A
   ## How to Contribute:
-  Through the Github repository
+  Github
   ## Tests:
   node index js
   ## Contact Information:
   -Github: [Evan5492](https://github.com/Evan5492)
-  -Email: [E.m.w5492@gmail.com](mail to: example@etc.com) 
+  -Email: [E.m.w5492]

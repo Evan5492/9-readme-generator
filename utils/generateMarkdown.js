@@ -41,7 +41,7 @@ function generateMarkdown(data) {
   ${data.tests}
   ## Contact Information:
   -Github: [${data.github}](https://github.com/${data.github})
-  -Email: [${data.email}](mail to: example@etc.com) `;
+  -Email: [${data.email}]`;
 }
 
 module.exports = generateMarkdown;
